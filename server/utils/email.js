@@ -34,7 +34,7 @@ const sendOTPEmail = async (userEmail, otp, type) => {
     try {
         const title = type === 'account_verification' ? 'Verify your Eventora Account' : 'Eventora Booking Verification';
         const msg = type === 'account_verification'
-            ? 'Please use the following OTP to verify your new Eventora account.'
+            ? 'Please use the following OTP to verify your new EVent-Space account.'
             : 'Please use the following OTP to verify and confirm your event booking.';
 
         const mailOptions = {
